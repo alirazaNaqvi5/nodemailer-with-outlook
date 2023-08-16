@@ -10,8 +10,8 @@ var transporter = nodemailer.createTransport({
        ciphers:'SSLv3'
     },
     auth: {
-        user: 'alinaqvi097@outlook.com',
-        pass: 'aliraza5a5'
+        user: '',
+        pass: ''
     }
 });
 
