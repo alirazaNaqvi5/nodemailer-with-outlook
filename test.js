@@ -1,9 +1,9 @@
 const Seq = require('sequelize');
 
 const models = require('./models/init-models.js');
-const sequelize = new Seq('marketplace', 'postgres', 'greenage', {
-    host: '192.168.100.17',
-    dialect: 'postgres',
+const sequelize = new Seq('', '', '', {
+    host: '',
+    dialect: '',
     dialectOptions: {
         encrypt: true
     }
